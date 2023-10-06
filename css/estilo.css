@@ -1,7 +1,4 @@
-/* .dropdown-item{
-    color: aliceblue;
-} */
-
-.nav-item{
-    color: aliceblue;
+.sombra{
+    text-shadow: 2px 2px 5px #fff;
 }
+

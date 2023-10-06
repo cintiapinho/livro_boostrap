@@ -3950,7 +3950,7 @@ textarea.form-control-lg {
 .navbar {
   --bs-navbar-padding-x: 0;
   --bs-navbar-padding-y: 0.5rem;
-  --bs-navbar-color:#fff;
+  --bs-navbar-color: rgba(var(--bs-emphasis-color-rgb), 0.65);
   --bs-navbar-hover-color: rgba(var(--bs-emphasis-color-rgb), 0.8);
   --bs-navbar-disabled-color: rgba(var(--bs-emphasis-color-rgb), 0.3);
   --bs-navbar-active-color: rgba(var(--bs-emphasis-color-rgb), 1);
@@ -4014,7 +4014,7 @@ textarea.form-control-lg {
   list-style: none;
 }
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
-  color: #fff;
+  color: var(--bs-navbar-active-color);
 }
 .navbar-nav .dropdown-menu {
   position: static;
